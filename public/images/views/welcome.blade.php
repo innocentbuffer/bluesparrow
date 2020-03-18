@@ -83,19 +83,19 @@
             <div class="form-home">
                 <form action="">
                     <div class="row mx-0">
-                        <div class="col-md-6 0ffset-md-6 pl-4">
+                        <div class="col-md-6 0ffset-md-6 ">
                             <div class="row mx-0">
                                 <div class="col-8">
                                     <form action="">
                                         <div class="form-group">
-                                            <label for=""><strong> Sign up here</strong></label>
-                                            <input type="email" name="" id="" class="form-control shadow" placeholder="Email address" style="height:50px; border-top-left-radius: 8px; border-bottom-left-radius: 8px;">
+                                            <label for="">Sign up here</label>
+                                            <input type="email" name="" id="" class="form-control rounded-0">
                                         </div>
                                     </form>
                                 </div>
                                 <div class="col-4 pl-0">
                                     <div class="form-group">
-                                        <button type="submit" class="home-form-btn" style="height:50px">Send</button>
+                                        <button type="submit" class=" home-form-btn">Send</button>
                                     </div>
                                     
                                 </div>
@@ -104,14 +104,13 @@
                     </div>
                 </form>
             </div>
-            </div>  
         </section>
         <section class="other-section">
             <div class="wavedown">
                 <img src="images/items/wavedown.png" class="wavedown-img" alt="">
             </div>
             <div class="trusted">
-                <p class="mt-3">Loved by</p>
+                <p class="mt-5">Loved by</p>
                 <div class="">
                     <ul class="list-inline">
                         <li class="list-inline-item px-4"><img src="images/loved/spinlet.png" style="width:150px" alt=""></li>
@@ -125,118 +124,21 @@
             <div class="doublewave">
                 <img src="images/items/doublewave.png" class="doublewave-img" alt="">
             </div>
-            <!--
             <div class="halfwave">
                 <img src="images/items/halfwave.png" class="halfwave-img" alt="">
             </div>
-            
-            <div class="journey">
-                <button class="btn d-block mx-auto bg-white">Start your journey</button>
-            </div>
-            -->
             <div class="goldlibrary">
-                <img src="images/items/library.png" class="goldlibrary-img mx-auto" style="width:30%;display:block" alt="">
-                <div class="goldjourney">
-                    <button class="btn d-block mx-auto bg-white goldjourney-btn">Start your journey</button>
-                </div>
+                <img src="images/items/goldlibrary.png" class="goldlibrary-img" alt="">
             </div>
             <div class="bronzelibrary">
-                <img src="images/items/library.png" class="bronzelibrary-img" style="width:25%;margin-left:20%" alt="">
-                <div class="bronzejourney">
-                    <button class="btn bg-white bronzejourney-btn">Start your journey</button>
-                </div>
+                <img src="images/items/bronzelibrary.png" class="bronzelibrary-img" alt="">
             </div>
             <div class="silverlibrary">
-                <img src="images/items/library.png" class="silverlibrary-img" style="width:25%;margin-left:55%" alt="">
-                <div class="silverjourney">
-                    <button class="btn bg-white silverjourney-btn">Start your journey</button>
-                </div>
-            </div>
-        </section>
-        <section class="other-section2 pt-5">
-            <div class="row mx-0">
-                <div class="col-12 col-md-8 px-5">
-                    <h3 class="project-color">Start Growing with BlueSparrow Today</h3>
-                    <p class="mt-3 project-text">
-                        With tools to make every part of your processs more human and a support team excited to help you, getting started with BlueSparrow has never been easier.
-                    </p>
-                    <button class="btn mt-3 py-3 px-4 text-white start-journey">
-                        Start your journey
-                    </button>
-                </div>
-                <div class="col-12 col-md-4">
-                    <img src="images/items/illustration1.png" alt="" style="width:100%">
-                </div>
-            </div>
-        </section>
-        <section class="other-section2 py-5">
-            <h3 class="text-center py-3 nexa">What our clients say about us</h3>
-            <div class="row mx-0">
-                <div class="col-6 col-md-6">
-                    <img src="images/items/comment.png" alt="" class="d-block mx-auto" style="width:80%;">
-                    <p class="qoutetext">
-                        &quot;Our teams are working together, we’ve optimised our processes, and we have more time to spend on strategy. BlueSparrow has been a big part of that 	&quot; 
-                    </p>
-                    <div class="commenter">
-                        <img src="images/items/7.jpg" class="rounded-circle float-left" alt="" style="width:18%">
-                        <div>
-                            <p class="commenter-info">CHRISTIANA ADEFARASIN<br>
-                                <span>Head of Innovative & Data (IrokoTV)</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <img src="images/items/comment.png" class="d-block mx-auto" alt="" style="width:80%">
-                    <p class="qoutetext">
-                        “When setting up for extensive growth, it is critical to have solid content storage in place. BlueSparrow is the foundation that drives that relationship within Audibook”
-                    </p>
-                    <div class="commenter">
-                        <img src="images/items/7.jpg" class="rounded-circle float-left" alt="" style="width:18%">
-                        <div >
-                            <p class="commenter-info">KOLA AIDOGBON<br>
-                                <span>Head of Innovative & Data (IrokoTV)</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                <img src="images/items/silverlibrary.png" class="silverlibrary-img" alt="">
             </div>
         </section>
     </main>
-    <footer class="pt-5">
-    <img src="images/items/footerimg.png" alt="" style="width:100%">
-        <div class="footer-text"> 
-            <div class="row mx-0">
-                <div class="col-md-5 footerlogo">
-                    <img src="images/logo/logofooter.png" class="float-left" alt="" style="width:64px">
-                    <p class="footerlogoname pt-4">BlueSparrow</p>
-                </div>
-                <div class="col-md-2">
-                    <h6 class="mb-4">ABOUT</h6>
-                    <ul class="list-inline">
-                        <li>FAQ</li>
-                        <li class="pt-2">Support</li>
-                        <li class="pt-2">Contact Us</li>
-                    </ul>
-                </div>
-                <div class="col-md-2">
-                    <h6 class="mb-4">RESOURCES</h6>
-                    <ul class="list-inline">
-                        <li>Community</li>
-                        <li class="pt-2">Stat</li>
-                        <li class="pt-2">Features</li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <h6 class="mb-4">TERMS OF USE</h6>
-                    <ul class="list-inline">
-                        <li>Cookies</li>
-                        <li class="pt-2">Polic</li>
-                        <li class="pt-2">terms and privacy</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+    <footer>
     </footer>
 
 </body>

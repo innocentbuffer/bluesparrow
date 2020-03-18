@@ -1,6 +1,9 @@
-@import '../vendor/mina-regular/stylesheet.css';
-@import '../vendor/mina-bold/stylesheet.css';
-@import '../vendor/bootstrap/dist/bootstrap.css';
+@import 'vendor/raleway_regular/stylesheet.css';
+@import 'vendor/nexabold/stylesheet.css';
+@import 'vendor/nexalight/stylesheet.css';
+@import 'vendor/philosopher/stylesheet.css';
+@import 'vendor/seravek/style.css';
+@import 'vendor/bootstrap/dist/bootstrap.css';
 
 *,body{
     margin: 0px;
@@ -9,6 +12,9 @@
     position: absolute;
     width: 100%;
     z-index: 18;
+}
+.nexa{
+    font-family: "Nexa";
 }
 
 .home-banner{
@@ -19,7 +25,7 @@
 
 .home-banner{
     position: relative;
-    background:  url("../images/banner/home.png") no-repeat center fixed;
+    background:  url("../images/banner/home.png") no-repeat center;
     background-size: cover;
 }
 .home-header{
@@ -29,8 +35,13 @@
 
 .logoname{
     font-size: 18px;
+    font-family: "Philosopher";
     position: absolute;
     top:30px
+}
+
+#navbarSupportedContent{
+    font-family: 'Seravek Light';
 }
 .menutitle{
     position: relative;
@@ -60,7 +71,7 @@
 }
 .moon-img{
     width: 5%;
-    margin-left: 550px;
+    margin-left: 800px;
 }
 .wave1{
     width: 100%;
@@ -71,20 +82,26 @@
     width: 100%;
     position: absolute;
     bottom: 0px;
+    z-index: 16;
 }
 .wave2 img{
     width: inherit;
-    height: 170px;
+    height: 270px;
 }
 .wave1 img{
     width: inherit;
-    height: 200px;
+    height: 400px;
 }
 .form-home{
     position: absolute;
     width: 100%;
     bottom: 55px;
     z-index: 17;
+    top:450px
+}
+.form-control {
+    
+    border: 0px;
 }
 .home-form-btn{
     margin-top: 32px;
@@ -92,7 +109,7 @@
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     height: 38px;
-    width: 60px;
+    width: 100px;
     border: 1px;
     color: white;
 }
@@ -100,7 +117,7 @@
     position: absolute;
     color: white;
     top: 0px;
-    padding-left: 30px;
+    padding-left: 48px;
     z-index: 16;
     background-color: #00000059;
     width: 100%;
@@ -108,7 +125,8 @@
 }
 .banner-text-child{
     position: relative;
-    top: 210px;
+    top: 250px;
+    font-family: "Nexa";
 }
 
 .moonshadow{
@@ -120,10 +138,159 @@
     transform: skewX(25.5deg) translateX(-177px);
 
 }
+label{
+    font-family: "Raleway";
+}
 .moonshadow img{
     width: inherit;
     margin-left: 87px;
     height: 260px;
+}
+
+.other-section{
+    position: relative;
+    height:100vh;
+    background-color: #f2f2f2;
+}
+.other-section2{
+    position: relative;
+    background-color: #f2f2f2;
+}
+
+.doublewave{
+    position: absolute;
+    top: 320px;
+    background-color: #f2f2f2;
+}
+.wavedown{
+    background-color: #f2f2f2;
+}
+
+.project-color{
+    color:#0a023a;
+    font-family: "Nexa";
+}
+.project-text{
+    font-family: "Raleway";
+}
+
+.wavedown-img, .doublewave-img, .halfwave-img{
+    width: 100%;
 
 }
 
+.wavedown-img, .doublewave-img{
+    height: 50vh;
+    
+}
+
+
+.halfwave{
+    position: absolute;
+    top: 770px;
+}
+
+.trusted{
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    font-family: "Raleway";
+}
+
+.goldlibrary,.bronzelibrary,.silverlibrary{
+    position: absolute;
+    width:100%
+}
+.goldlibrary{
+    top:170px;
+    z-index: 16;
+}
+.bronzelibrary,.silverlibrary{
+    top:210px
+}
+
+.start-journey{
+    background-color: #0a0337;
+}
+
+.goldjourney{
+    position: relative;
+    z-index: 16;
+    top: -30px;
+    width:100%
+}
+
+.bronzejourney{
+    position: relative;
+    z-index: 16;
+    top:-120px;
+    width:100%
+}
+
+.silverjourney{
+    position: relative;
+    z-index: 16;
+    top:-120px;
+    width:100%
+}
+
+.bronzejourney-btn{
+    margin-left: 16%;
+}
+
+.silverjourney-btn,.silverjourney-btn, .goldjourney-btn{
+    font-family: "Raleway";
+}
+
+.bronzejourney-btn{
+    margin-left: 16%;
+}
+
+.silverjourney-btn{
+    margin-left: 72%;
+}
+
+.qoutetext{
+    position: absolute;
+    top: 125px;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 1em;
+    font-family: "Raleway";
+}
+
+.commenter{
+    position: absolute;
+    top: 360px;
+    padding-left: 26%;
+}
+
+.commenter-info{
+    padding-left: 80px;
+    font-family: "Raleway";
+}
+.footerlogoname{
+    padding-left: 80px;
+    font-family: "Philosopher";
+    font-size: 30px;
+
+}
+footer{
+    position: relative;
+    background-color: #f2f2f2;
+}
+.footer-text{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    margin-top: 230px;
+    color:white;
+    font-family: "Raleway";
+}
+
+.footerlogo{
+    padding-left: 48px;
+    padding-top: 35px;
+}
