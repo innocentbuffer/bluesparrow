@@ -39,6 +39,14 @@
     position: absolute;
     top:30px
 }
+.logoname-color{
+    font-size: 18px;
+    font-family: "Philosopher";
+    position: relative;
+    top:10px;
+    color:#0a023a;
+    left: 5px;
+}
 
 #navbarSupportedContent{
     font-family: 'Seravek Light';
@@ -59,6 +67,7 @@
     padding-right: 33px;
     border-radius: 50px;
     color: #261d84;
+    font-weight: bold;
 }
 
 
@@ -97,12 +106,9 @@
     width: 100%;
     bottom: 55px;
     z-index: 17;
-    top:450px
+    top:500px
 }
-.form-control {
-    
-    border: 0px;
-}
+
 .home-form-btn{
     margin-top: 32px;
     background-color: #ffb600;
@@ -169,6 +175,7 @@ label{
 .project-color{
     color:#0a023a;
     font-family: "Nexa";
+    font-weight: bold;
 }
 .project-text{
     font-family: "Raleway";
@@ -197,6 +204,7 @@ label{
     width: 100%;
     font-size: 25px;
     font-family: "Raleway";
+    font-weight: bold;
 }
 
 .goldlibrary,.bronzelibrary,.silverlibrary{
@@ -213,6 +221,23 @@ label{
 
 .start-journey{
     background-color: #0a0337;
+    border: 0px;
+    border-radius: 22px 22px;
+}
+.start-journey-login{
+    background-color: #0a0337;
+    border: 0px;
+    border-radius: 22px 22px;
+    font-size: 18px;
+}
+
+.logbanner{
+    background:  url("../images/banner/logbanner.png") no-repeat center;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+.loginsection{
+    height: 100vh;
 }
 
 .goldjourney{
@@ -240,8 +265,9 @@ label{
     margin-left: 16%;
 }
 
-.silverjourney-btn,.silverjourney-btn, .goldjourney-btn{
+.silverjourney-btn,.bronzejourney-btn, .goldjourney-btn{
     font-family: "Raleway";
+    font-weight: bold;
 }
 
 .bronzejourney-btn{
@@ -293,4 +319,7 @@ footer{
 .footerlogo{
     padding-left: 48px;
     padding-top: 35px;
+}
+.logform{
+    margin-top: 40%;
 }

@@ -160,7 +160,7 @@
                     <p class="mt-3 project-text">
                         With tools to make every part of your processs more human and a support team excited to help you, getting started with BlueSparrow has never been easier.
                     </p>
-                    <button class="btn mt-3 py-3 px-4 text-white start-journey">
+                    <button class="mt-3 py-3 px-5 text-white start-journey">
                         Start your journey
                     </button>
                 </div>
@@ -170,7 +170,7 @@
             </div>
         </section>
         <section class="other-section2 py-5">
-            <h3 class="text-center py-3 nexa">What our clients say about us</h3>
+            <h3 class="text-center py-3 nexa"><strong> What our clients say about us</strong></h3>
             <div class="row mx-0">
                 <div class="col-6 col-md-6">
                     <img src="images/items/comment.png" alt="" class="d-block mx-auto" style="width:80%;">
