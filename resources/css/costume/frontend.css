@@ -90,7 +90,7 @@
 .wave2{
     width: 100%;
     position: absolute;
-    bottom: 0px;
+    bottom: -2px;
     z-index: 16;
 }
 .wave2 img{
@@ -106,7 +106,7 @@
     width: 100%;
     bottom: 55px;
     z-index: 17;
-    top:500px
+    top:120px
 }
 
 .home-form-btn{
@@ -161,6 +161,11 @@ label{
 .other-section2{
     position: relative;
     background-color: #f2f2f2;
+}
+.other-section3{
+    position: relative;
+    background-color: #f2f2f2;
+    height: 100vh;
 }
 
 .doublewave{
@@ -308,18 +313,93 @@ footer{
     background-color: #f2f2f2;
 }
 .footer-text{
-    position: absolute;
     width: 100%;
-    top: 0;
     margin-top: 230px;
     color:white;
     font-family: "Raleway";
 }
 
 .footerlogo{
-    padding-left: 48px;
     padding-top: 35px;
 }
 .logform{
     margin-top: 40%;
 }
+
+.goldlibrary-mobile{
+    top: 102px;
+    z-index: 16;
+}
+.goldlibrary-mobile, .bronzelibrary-mobile, .silverlibrary-mobile {
+    position: absolute;
+    width: 100%;
+}
+.goldjourney-mobile {
+    position: relative;
+    z-index: 16;
+    top: -15px;
+    width: 100%;
+}
+
+.bronzelibrary-mobile, .silverlibrary-mobile{
+    top: 415px;
+    overflow-x: hidden;
+}
+
+.bronzejourney-mobile {
+    position: relative;
+    z-index: 16;
+    top: -15px;
+    width: 100%;
+}
+
+.bronzejourney-btn-mobile {
+    margin-left: 4%;
+}
+
+.silverjourney-btn-mobile{
+    margin-left: 60%;
+}
+.silverjourney-mobile {
+    position: relative;
+    z-index: 16;
+    top: -15px;
+    width: 100%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+    html {
+      transform: rotate(-90deg);
+      transform-origin: left top;
+      width: 100vh;
+      overflow-x: hidden;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+
+    .qoutetext{
+        
+        top: 5px;
+        font-size: .7em;
+    }
+  }
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    
+
+    .qoutetext{
+        
+        top: 60px;
+        font-size: .7em;
+    }
+    .commenter {
+        top: 190px;
+    }
+
+    .project-color{
+        text-align: center;
+    }
+    .h3, h3 {
+        font-size: 1.55rem;
+    }
+  }
